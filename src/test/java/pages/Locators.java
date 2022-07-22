@@ -25,7 +25,19 @@ public class Locators {
 
             public static By submittedValue = By.xpath("//*[@id='_valuevalue']");
 
-            //public static By alert = By.xpath("//[@id='a'")
+        }
+
+        public static class AlertBox{
+            public static By simpleAlertBox = By.xpath("//input[@id='alertexamples']");
+
+            public static By confirmAlertBox = By.xpath("//input[@id='confirmexample']");
+
+            public static By promptAlertBox = By.xpath("//input[@id='promptexample']");
+
+            public static By confirmReturnedValue = By.xpath("//*[@id='confirmreturn']");
+
+            public static By confirmChangedValue = By.xpath("//*[@id='promptreturn']");
+
         }
     }
 }

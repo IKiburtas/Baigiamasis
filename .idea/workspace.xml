@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42dbcb66-38df-49c4-9702-de20fac70a40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPages/DynamicButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPages/FieldValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/readme/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestPages/DynamicButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestPages/FieldValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
+    <list default="true" id="42dbcb66-38df-49c4-9702-de20fac70a40" name="Changes" comment="Intial Commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPages/AlertBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestPages/AlertBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/readme/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/readme/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +50,8 @@
       <recent name="S:\Users\Ignas\IdeaProjects\Baigiamasis\src\test\java\readme" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FieldValidation.inputMoreThan30">
-    <configuration name="DynamicButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AlertBox">
+    <configuration name="AlertBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Baigiamasis" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +60,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.TestPages" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestPages.DynamicButtons" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPages.AlertBox" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertBox.TestPromptAlertBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Baigiamasis" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +77,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.TestPages" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestPages.FieldValidation" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPages.AlertBox" />
+      <option name="METHOD_NAME" value="TestPromptAlertBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertBox.TestToCancelConfirmAlertBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Baigiamasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.TestPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.TestPages" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPages.AlertBox" />
+      <option name="METHOD_NAME" value="TestToCancelConfirmAlertBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertBox.TestToCloseSimpleAlertBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Baigiamasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.TestPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.TestPages" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPages.AlertBox" />
+      <option name="METHOD_NAME" value="TestToCloseSimpleAlertBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -116,9 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertBox" />
+        <item itemvalue="TestNG.AlertBox.TestPromptAlertBox" />
+        <item itemvalue="TestNG.AlertBox.TestToCancelConfirmAlertBox" />
+        <item itemvalue="TestNG.AlertBox.TestToCloseSimpleAlertBox" />
         <item itemvalue="TestNG.FieldValidation.inputMoreThan30" />
-        <item itemvalue="TestNG.FieldValidation" />
-        <item itemvalue="TestNG.DynamicButtons" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +159,13 @@
       <option name="presentableId" value="Default" />
       <updated>1658487587190</updated>
     </task>
+    <task id="LOCAL−00001" summary="Intial Commit">
+      <created>1658500624835</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1658500624835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,5 +178,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intial Commit" />
   </component>
 </project>
