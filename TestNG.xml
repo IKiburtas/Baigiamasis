@@ -5,6 +5,8 @@
         <classes>
             <class name="tests.TestPages.DynamicButtons"/>
             <class name="tests.TestPages.FieldValidation"/>
+            <class name="tests.TestPages.AlertBox"/>
+            <class name="tests.TestPages.Calculator"/>
         </classes>
     </test>
 </suite>

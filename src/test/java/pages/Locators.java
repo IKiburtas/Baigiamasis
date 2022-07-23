@@ -39,5 +39,17 @@ public class Locators {
             public static By confirmChangedValue = By.xpath("//*[@id='promptreturn']");
 
         }
+
+        public static class Calculator{
+            public static By firstInputField = By.xpath("//input[@id='number1']");
+
+            public static By secondInputField = By.xpath("//input[@id='number2']");
+
+            public static By functionDropdown = By.xpath("//select[@id='function']");
+
+            public static By calculateButton = By.xpath("//input[@id='calculate']");
+
+            public static By answerValue = By.xpath("//*[@id='answer']");
+        }
     }
 }

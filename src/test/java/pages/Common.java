@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Constants;
 import utils.Driver;
@@ -41,6 +42,12 @@ public class Common {
     public static void declineAlert() {Driver.getDriver().switchTo().alert().dismiss();}
 
     public static void sendKeysToAlert(String keys) {Driver.getDriver().switchTo().alert().sendKeys(keys);}
+
+    public static void selectOptionByValue(By locator, String value) {
+        WebElement webElement = getElement(locator);
+        Select selectElement = new Select(webElement);
+        selectElement.selectByValue(value);
+    }
 
 }
 

@@ -40,3 +40,12 @@ Pasirinkta svetainė: https://testpages.herokuapp.com/
     * Input "Atsiprašau už vėlavimą" into Prompt box text field
     * Click OK on the Prompt box
     * Check if the message below the button reads "Atsiprašau už vėlavimą"
+
+## Calculator (https://testpages.herokuapp.com/styled/calculator)
+1. Division
+    * Enter a number in the first field
+    * Enter a number in the second field
+    * Select "divide" from the dropdown menu
+    * Press the "Calculate" button
+    * Wait for 3 seconds as the website calculates
+    * Test if the answer is correct
